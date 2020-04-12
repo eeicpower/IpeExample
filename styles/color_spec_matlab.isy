@@ -1,0 +1,10 @@
+<ipestyle name="color_spec_matlab">
+<color name="matlab_k" value="0 0 0"/>
+<color name="matlab_r" value="1 0 0"/>
+<color name="matlab_g" value="0 1 0"/>
+<color name="matlab_b" value="0 0 1"/>
+<color name="matlab_y" value="1 1 0"/>
+<color name="matlab_m" value="1 0 1"/>
+<color name="matlab_c" value="0 1 1"/>
+<color name="matlab_w" value="1 1 1"/>
+</ipestyle>

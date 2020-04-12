@@ -1,0 +1,9 @@
+<ipestyle name="color_plot_matlab">
+<color name="mblue" value="0.000 0.447 0.714"/>
+<color name="mred" value="0.850 0.325 0.098"/>
+<color name="morange" value="0.929 0.694 0.125"/>
+<color name="mpurple" value="0.494 0.184 0.556"/>
+<color name="mgreen" value="0.466 0.674 0.188"/>
+<color name="mcyan" value="0.301 0.745 0.933"/>
+<color name="mbrown" value="0.635 0.078 0.184"/>
+</ipestyle>

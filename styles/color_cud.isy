@@ -1,0 +1,11 @@
+<ipestyle name="color_cud">
+<color name="cud_red" value="1 0.16 0"/>
+<color name="cud_yellow" value="0.98 0.96 0"/>
+<color name="cud_green" value="0.21 0.63 0.42"/>
+<color name="cud_blue" value="0 0.25 1"/>
+<color name="cud_sky" value="0.4 0.8 1"/>
+<color name="cud_pink" value="1 0.6 0.63"/>
+<color name="cud_orange" value="1 0.6 0"/>
+<color name="cud_purple" value="0.6 0 0.47"/>
+<color name="cud_brown" value="0.4 0.2 0"/>
+</ipestyle>

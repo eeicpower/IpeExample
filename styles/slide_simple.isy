@@ -1,0 +1,31 @@
+<ipestyle name="slide_simple">
+
+<layout paper="360 270" origin="4 4" frame="352 240" skip="0" crop="no"/>
+<titlestyle pos="0 250" color="white" size="Large" valign="baseline" halign="left"/>
+<pagenumberstyle pos="352 252" color="white" size="small" valign="baseline" halign="right"/>
+
+<color name="theme_color" value="0.02 0.29 0.16"/>
+
+<preamble>
+
+\usepackage{newtxtext}
+\usepackage[whole]{bxcjkjatype}
+\renewcommand\familydefault{\sfdefault}
+
+</preamble>
+
+<symbol name="Background" xform="yes">
+<group>
+
+<path fill="theme_color">
+-4 266 m
+-4 244 l
+356 244 l
+356 266 l
+h
+</path>
+
+</group>
+</symbol>
+
+</ipestyle>

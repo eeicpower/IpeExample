@@ -1,0 +1,44 @@
+<ipestyle name="IEEETwoColumn">
+<preamble>
+
+% IEEE uses Times font, so we'll default to times.
+
+% These three commands make up the entire times.sty package.
+
+\renewcommand{\sfdefault}{phv}
+
+\renewcommand{\rmdefault}{ptm}
+
+\renewcommand{\ttdefault}{pcr}
+
+% enable Times now - so that all class options can see the correct font families
+\normalfont\selectfont
+
+\RequirePackage{amsmath}
+
+\makeatletter
+\g@addto@macro\small{%
+  \setlength\abovedisplayskip{0pt}%
+  \setlength\belowdisplayskip{0pt}%
+  \setlength\abovedisplayshortskip{0pt}%
+  \setlength\belowdisplayshortskip{0pt}%
+}
+\g@addto@macro\footnotesize{%
+  \setlength\abovedisplayskip{0pt}%
+  \setlength\belowdisplayskip{0pt}%
+  \setlength\abovedisplayshortskip{0pt}%
+  \setlength\belowdisplayshortskip{0pt}%
+}
+\g@addto@macro\normalsize{%
+  \setlength\abovedisplayskip{0pt}%
+  \setlength\belowdisplayskip{0pt}%
+  \setlength\abovedisplayshortskip{0pt}%
+  \setlength\belowdisplayshortskip{0pt}%
+}
+\makeatother
+
+</preamble>
+
+<layout paper="245 680" origin="0 0" frame="245 680"/>
+
+</ipestyle>

@@ -1,0 +1,13 @@
+<ipestyle name="slide_poster_a5">
+
+<layout paper="596 421" origin="10 18.5" frame="576 384" skip="0" crop="no"/>
+
+<preamble>
+
+\usepackage{newtxtext}
+\usepackage[whole]{bxcjkjatype}
+\renewcommand\familydefault{\sfdefault}
+
+</preamble>
+
+</ipestyle>
