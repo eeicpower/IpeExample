@@ -15,24 +15,21 @@
 
 <preamble>
 
-\usepackage{xcolor}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{enumitem}
 
-\renewcommand{\labelitemi}{\color{utokyoblue}{$\blacksquare$}}
-\renewcommand{\labelitemii}{\color{utokyoblue}{$\blacktriangleright$}}
-\renewcommand{\labelitemiii}{\color{utokyoblue}{$\blacksquare$}}
-\renewcommand{\labelitemiv}{\color{utokyoblue}{$\blacktriangleright$}}
-
-\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{newtxtext}
 \usepackage{bm}
-
 \usepackage[whole]{bxcjkjatype}
 \renewcommand\familydefault{\sfdefault}
+
+\usepackage{enumitem}
+\renewcommand{\labelitemi}{\color{utokyoblue}{$\blacksquare$}}
+\renewcommand{\labelitemii}{\color{utokyoblue}{$\blacktriangleright$}}
+\renewcommand{\labelitemiii}{\color{utokyoblue}{$\blacksquare$}}
+\renewcommand{\labelitemiv}{\color{utokyoblue}{$\blacktriangleright$}}
 
 \usepackage[yyyymmdd]{datetime}
 

@@ -4,11 +4,13 @@
 <titlestyle pos="0 250" color="white" size="Large" valign="baseline" halign="left"/>
 <pagenumberstyle pos="352 252" color="white" size="small" valign="baseline" halign="right"/>
 
-<color name="theme_color" value="0.02 0.29 0.16"/>
+<gridsize name="1 pts" value="1"/>
+<gridsize name="2 pts" value="2"/>
 
 <preamble>
 
-\usepackage{newtxtext}
+\usepackage[T1]{fontenc}
+\usepackage{roboto}
 \usepackage[whole]{bxcjkjatype}
 \renewcommand\familydefault{\sfdefault}
 
@@ -17,7 +19,7 @@
 <symbol name="Background" xform="yes">
 <group>
 
-<path fill="theme_color">
+<path fill="navy">
 -4 266 m
 -4 244 l
 356 244 l
