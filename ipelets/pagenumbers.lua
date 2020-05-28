@@ -8,7 +8,9 @@ Modified version by Jurgen van Zundert, April 2017
 
 label = "Pagenumbers"
 
-about = [[ An Ipelet for printing customizable pagenumbers to the pages. ]]
+about = [[
+An Ipelet for printing customizable pagenumbers to the pages.
+]]
 
 local prefix = "pagenumbers"
 local format_layer = prefix .. "_format"

@@ -39,7 +39,9 @@ Modified version for Wndows 10 by Masahiro Mae, June 2018
 
 label = "Insert PDF/IPE"
 
-about = [[Insert PDF/IPE]]
+about = [[
+Insert PDF/IPE
+]]
 
 function run(model)
 	-- get filename

@@ -1,6 +1,8 @@
 label = "Export PDF Handout"
 
-about = [[Export PDF Handout]]
+about = [[
+Export PDF Handout
+]]
 
 function run(model)
 
@@ -12,15 +14,16 @@ function run(model)
 	if not file then return end
 	dir=string.gsub(file, "(.*/)(.*)", "%1")
 
-	local handout=file .. "_handout.pdf"
+	local idx = string.find(file,'%.')
+	local name = string.sub(file,0,idx-1)
+	local handout=name .. "_handout.pdf"
 
 	local format= ipe.fileFormat(file)
 	if format~="xml" then
-		-- convert file to IPE
 		local ret=0
 		ret=_G.os.execute("ipetoipe -pdf -markedview " .. file .. " " .. handout)
 		if not ret then
-			model:warning ("fail to convert to intermediate IPE")
+			model:warning ("fail to convert to PDF handout")
 			return
 		end
 		file=handout
