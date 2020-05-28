@@ -36,17 +36,16 @@
 --[[
 Modified version for Wndows 10 by Masahiro Mae, June 2019
 --]]
+
 label = "Insert PDF/IPE -math"
 
-about = [[
-Insert PDF/IPE files -math.
-]]
+about = [[Insert PDF/IPE -math]]
 
 function run(model)
 	-- get filename
 	dir=dir or "."
 
-	local file=ipeui.fileDialog(nil, "open", "Import EPS/PDF File",
+	local file=ipeui.fileDialog(nil, "open", "Open PDF/IPE File",
 		{"PDF, IPE (*.pdf *.ipe)", "*.pdf;*.ipe"},
 		dir, nil)
 	if not file then return end
