@@ -45,27 +45,27 @@ Insert PDF/IPE -math
 
 function run(model)
 	-- get filename
-	dir=dir or "."
+	dir = dir or "."
 
-	local file=ipeui.fileDialog(nil, "open", "Open PDF/IPE File",
+	local file = ipeui.fileDialog(nil, "open", "Open PDF/IPE File",
 		{"PDF, IPE (*.pdf *.ipe)", "*.pdf;*.ipe"},
 		dir, nil)
 	if not file then return end
-	dir=string.gsub(file, "(.*/)(.*)", "%1")
+	dir = string.gsub(file, "(.*/)(.*)", "%1")
 
-	local tmpipe=file .. ".ipe"
+	local tmpipe = file .. ".ipe"
 
 	-- convert to an Ipe file if not already one
-	local format= ipe.fileFormat(file)
-	if format~="xml" then
+	local format =  ipe.fileFormat(file)
+	if format ~= "xml" then
 		-- convert file to IPE
-		local ret=0
-		ret=_G.os.execute("pdftoipe -math " .. file .. " " .. tmpipe)
+		local ret = 0
+		ret = _G.os.execute("pdftoipe -math " .. file .. " " .. tmpipe)
 		if not ret then
 			model:warning ("fail to convert to intermediate IPE")
 			return
 		end
-		file=tmpipe
+		file = tmpipe
 	end
 
 	-- load the doc
@@ -89,9 +89,9 @@ function run(model)
 			p:transform(j, m)
 		end
 
-		local elements={}
+		local elements = {}
 		for i,obj,sel,layer in p:objects() do
-			elements[#elements+1]=obj
+			elements[#elements+1] = obj
 		end
 
 		local group = ipe.Group(elements)
