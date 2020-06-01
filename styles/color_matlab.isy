@@ -1,0 +1,18 @@
+<ipestyle name="color_matlab">
+<color name="matlab_k" value="0 0 0"/>
+<color name="matlab_r" value="1 0 0"/>
+<color name="matlab_g" value="0 1 0"/>
+<color name="matlab_b" value="0 0 1"/>
+<color name="matlab_y" value="1 1 0"/>
+<color name="matlab_m" value="1 0 1"/>
+<color name="matlab_c" value="0 1 1"/>
+<color name="matlab_w" value="1 1 1"/>
+
+<color name="matlab_blue" value="0.000 0.447 0.714"/>
+<color name="matlab_red" value="0.850 0.325 0.098"/>
+<color name="matlab_orange" value="0.929 0.694 0.125"/>
+<color name="matlab_purple" value="0.494 0.184 0.556"/>
+<color name="matlab_green" value="0.466 0.674 0.188"/>
+<color name="matlab_cyan" value="0.301 0.745 0.933"/>
+<color name="matlab_brown" value="0.635 0.078 0.184"/>
+</ipestyle>
