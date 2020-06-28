@@ -19,7 +19,11 @@ function run(model)
     local handout = name .. "_handout.pdf"
 
     local ret = 0
-    ret = _G.os.execute("ipetoipe -pdf -markedview " .. file .. " " .. handout)
+    if config.platform == "apple" then
+        ret = _G.os.execute("/Applications/Ipe.app/Contents/MacOS/ipetoipe -pdf -markedview " .. file .. " " .. handout)
+    else
+        ret = _G.os.execute("ipetoipe -pdf -markedview " .. file .. " " .. handout)
+    end
     if not ret then
         model:warning ("fail to convert to PDF handout")
     return
