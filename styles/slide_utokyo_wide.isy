@@ -1,8 +1,8 @@
-<ipestyle name="slide_utokyo">
+<ipestyle name="slide_utokyo_wide">
 
-<layout paper="360 270" origin="12 16" frame="336 224" skip="0" crop="no"/>
+<layout paper="480 270" origin="16 16" frame="448 224" skip="0" crop="no"/>
 <titlestyle pos="0 232" color="utokyodarkblue" size="LARGE" halign="left" valign="baseline"/>
-<pagenumberstyle pos="336 -12" color="black" size="footnote" halign="right" valign="baseline">\arabic{ipePage}/\arabic{ipePages}</pagenumberstyle>
+<pagenumberstyle pos="448 -12" color="black" size="footnote" halign="right" valign="baseline">\arabic{ipePage}/\arabic{ipePages}</pagenumberstyle>
 
 <gridsize name="1 pts" value="1"/>
 <gridsize name="2 pts" value="2"/>
@@ -35,18 +35,18 @@
 <group>
 
 <path fill="utokyoblue">
--12 254 m
--12 250 l
-348 250 l
-348 254 l
+-16 254 m
+-16 250 l
+464 250 l
+464 254 l
 h
 </path>
 
 <path fill="utokyogold">
--12 -4 m
--12 -16 l
-348 -16 l
-348 -4 l
+-16 -4 m
+-16 -16 l
+464 -16 l
+464 -4 l
 h
 </path>
 
