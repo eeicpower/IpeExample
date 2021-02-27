@@ -8,7 +8,7 @@
 <color name="matlab_c" value="0 1 1"/>
 <color name="matlab_w" value="1 1 1"/>
 
-<color name="matlab_blue" value="0.000 0.447 0.714"/>
+<color name="matlab_blue" value="0 0.447 0.714"/>
 <color name="matlab_red" value="0.850 0.325 0.098"/>
 <color name="matlab_orange" value="0.929 0.694 0.125"/>
 <color name="matlab_purple" value="0.494 0.184 0.556"/>
