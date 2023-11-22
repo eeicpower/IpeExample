@@ -1,0 +1,19 @@
+<ipestyle name="poster_simple">
+
+<layout paper="596 842" origin="10 5" frame="576 832" skip="0" crop="no"/>
+<titlestyle pos="0 832" color="black" size="Huge" valign="top" halign="left"/>
+<pagenumberstyle pos="576 0" color="black" size="LARGE" valign="bottom" halign="right"/>
+
+<preamble>
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{newtxtext}
+\usepackage{bm}
+
+\usepackage[whole]{bxcjkjatype}
+\renewcommand\familydefault{\sfdefault}
+
+</preamble>
+
+</ipestyle>

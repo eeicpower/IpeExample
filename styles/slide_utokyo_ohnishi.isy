@@ -1,0 +1,113 @@
+<ipestyle name="slide_utokyo_ohnishi">
+
+<layout paper="360 270" origin="12 16" frame="336 224" crop="no"/>
+<titlestyle pos="0 232" size="LARGE" color="utokyodarkblue"  valign="baseline"/>
+<pagenumberstyle pos="336 -14" color="black" size="footnote" halign="right" valign="baseline">\arabic{ipePage}/\arabic{ipePages}</pagenumberstyle>
+
+<color name="utokyoblue" value="0.336 0.521 0.768"/>
+<color name="utokyodarkblue" value="0.082 0.22 0.443"/>
+<color name="utokyogreen" value="0.203 0.352 0.168"/>
+<color name="utokyoyellow" value="1 0.83 0.101"/>
+
+<gridsize name="1 pts" value="1"/>
+<gridsize name="2 pts" value="2"/>
+
+<textstyle name="align*" begin="\begin{align}" end="\end{align}"/>
+<textstyle name="align*" begin="\begin{align*}" end="\end{align*}"/>
+<textstyle name="flushright" begin="\begin{flushright}" end="\end{flushright}"/>
+
+<preamble>
+
+% Itemize
+\usepackage{enumitem}
+
+\setlist{nosep}
+
+\setlength{\leftmargini}{12pt}
+\setlength{\leftmarginii}{12pt}
+\setlength{\leftmarginiii}{12pt}
+\setlength{\leftmarginiv}{12pt}
+
+\usepackage{color}
+\usepackage{amssymb}
+
+\renewcommand{\labelitemi}{\color{utokyogreen}{$\vartriangleright$}}
+\renewcommand{\labelitemii}{\color{utokyogreen}{$\blacktriangleright$}}
+\renewcommand{\labelitemiii}{\color{utokyogreen}{$\vartriangleright$}}
+\renewcommand{\labelitemiv}{\color{utokyogreen}{$\blacktriangleright$}}
+
+% Equation Number
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs,showmanualtags}
+
+% Equation Margin
+\makeatletter
+\g@addto@macro{\normalsize}{\setlength{\abovedisplayskip}{0pt}\setlength{\abovedisplayshortskip}{0pt}\setlength{\belowdisplayskip}{0pt}\setlength{\belowdisplayshortskip}{0pt}}
+\makeatother
+
+% Font
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{newtxtext}
+\usepackage{bm}
+\usepackage{url}
+
+\usepackage[whole]{bxcjkjatype}
+\renewcommand\familydefault{\sfdefault}
+
+% Miyoshi circuit
+% https://github.com/threegirls89/IpeTikZCircuit
+\renewcommand{\itcUnitlength}{8bp}
+\renewcommand{\itcLinewidth}{0.4pt}
+
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{ascmac}
+\usepackage{listings} % for sorce cord
+\lstset{language=matlab,
+  basicstyle=\ttfamily\scriptsize,
+  commentstyle=\normalfont,
+  classoffset=1,
+  keywordstyle=\bfseries,
+  frame=tRBl,
+  framesep=5pt,
+  showstringspaces=0,
+  numbers=left,
+  stepnumber=0,
+  numberstyle=\tiny,
+  tabsize=2,
+  breaklines=true,
+}
+
+\usepackage[yyyymmdd]{datetime}
+
+</preamble>
+
+<symbol name="Background" transformations="translations" xform="yes">
+<group>
+
+<path fill="utokyoblue">
+-12 254 m
+-12 250 l
+348 250 l
+348 254 l
+h
+</path>
+
+<path fill="utokyoyellow">
+-12 -8 m
+-12 -16 l
+348 -16 l
+348 -8 l
+h
+</path>
+
+<text pos="0 -14" stroke="0" type="label" width="51.327" height="5.544" depth="0" valign="baseline" size="footnote">\today</text>
+
+</group>
+</symbol>
+
+</ipestyle>
