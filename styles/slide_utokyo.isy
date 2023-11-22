@@ -2,7 +2,7 @@
 
 <layout paper="480 270" origin="16 16" frame="448 224" skip="0" crop="no"/>
 <titlestyle pos="0 232" color="utokyoblue" size="LARGE" halign="left" valign="baseline"/>
-<pagenumberstyle pos="448 -12" color="white" size="tiny" halign="right" valign="baseline">\arabic{ipePage}/\arabic{ipePages}</pagenumberstyle>
+<pagenumberstyle pos="448 -12" color="white" size="tiny" halign="right" valign="baseline"/>
 
 <color name="utokyogold" value="0.949 0.664 0"/>
 <color name="utokyoblue" value="0.180 0.535 0.848"/>
