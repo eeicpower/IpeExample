@@ -1,4 +1,5 @@
-<ipestyle name="IFACOneColumn">
+<ipestyle name="ifac_one_column">
+
 <preamble>
 
 % IFAC uses Times font, so we'll default to times.

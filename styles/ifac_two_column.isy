@@ -1,7 +1,8 @@
-<ipestyle name="IEEETwoColumn">
+<ipestyle name="ifac_two_column">
+
 <preamble>
 
-% IEEE uses Times font, so we'll default to times.
+% IFAC uses Times font, so we'll default to times.
 
 % These three commands make up the entire times.sty package.
 
@@ -39,6 +40,6 @@
 
 </preamble>
 
-<layout paper="245 680" origin="0 0" frame="245 680"/>
+<layout paper="251 680" origin="0 0" frame="251 680"/>
 
 </ipestyle>

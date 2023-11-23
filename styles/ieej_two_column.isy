@@ -1,4 +1,5 @@
-<ipestyle name="IEEEOneColumn">
+<ipestyle name="ieej_two_column">
+
 <preamble>
 
 % IEEE uses Times font, so we'll default to times.
@@ -39,6 +40,6 @@
 
 </preamble>
 
-<layout paper="505 680" origin="0 0" frame="505 680"/>
+<layout paper="242 680" origin="0 0" frame="242 680"/>
 
 </ipestyle>
