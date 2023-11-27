@@ -23,8 +23,6 @@
 \renewcommand{\labelitemiii}{\textbullet}
 \renewcommand{\labelitemiv}{\textbullet}
 
-\usepackage[yyyymmdd]{datetime}
-
 </preamble>
 
 <symbol name="Background"  xform="yes">
