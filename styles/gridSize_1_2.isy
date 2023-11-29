@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipestyle SYSTEM "ipe.dtd">
+<ipestyle name="gridSize_1_2">
+<gridsize name="1 pts" value="1"/>
+<gridsize name="2 pts" value="2"/>
+</ipestyle>
+
