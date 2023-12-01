@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipestyle SYSTEM "ipe.dtd">
+<ipestyle name="dashed_dotted">
+<dashstyle name="dashed [3] 0" value="[3] 0"/>
+<dashstyle name="dotted [1 1] 0" value="[1 1] 0"/>
+<dashstyle name="dotted [1 2] 0" value="[1 2] 0"/>
+<dashstyle name="dotted [2 2] 0" value="[2 2] 0"/>
+<dashstyle name="dotted [0 1] 0" value="[0 1] 0"/>
+<dashstyle name="dotted [0 2] 0" value="[0 2] 0"/>
+<dashstyle name="dotted [0 3] 0" value="[0 3] 0"/>
+<dashstyle name="dotted [0 4] 0" value="[0 4] 0"/>
+</ipestyle>
+
