@@ -1,6 +1,8 @@
 <ipestyle name="poster_utokyo">
 
 <layout paper="596 842" origin="42 37" frame="512 768" skip="0" crop="no"/>
+<titlestyle pos="8 748" color="black" size="Large" halign="left" valign="center"/>
+<pagenumberstyle pos="256 -16" color="black" size="normal" halign="center" valign="center"/>
 
 <color name="utokyogold" value="0.949 0.664 0"/>
 <color name="utokyoblue" value="0.180 0.535 0.848"/>
