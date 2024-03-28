@@ -1,17 +1,18 @@
 <ipestyle name="slide_utokyo_16_9">
 
 <layout paper="480 270" origin="16 16" frame="448 224" skip="0" crop="no"/>
-<titlestyle pos="0 232" color="utokyodarkblue" size="LARGE" halign="left" valign="baseline"/>
+<titlestyle pos="0 232" color="utokyo_blue" size="LARGE" halign="left" valign="baseline"/>
 <pagenumberstyle pos="448 -12" color="black" size="footnote" halign="right" valign="baseline">\arabic{ipePage}/\arabic{ipePages}</pagenumberstyle>
 
 <gridsize name="1 pts" value="1"/>
 <gridsize name="2 pts" value="2"/>
 
-<color name="utokyogold" value="0.949 0.664 0"/>
-<color name="utokyoblue" value="0.180 0.535 0.848"/>
-<color name="utokyogreen" value="0.023 0.293 0.156"/>
-<color name="utokyodarkblue" value="0.172 0.301 0.617"/>
-<color name="utokyodarkred" value="0.625 0.074 0.105"/>
+<color name="utokyo_yellow" value="1. 0.804 0"/>
+<color name="utokyo_blue" value="0.043 0.545 0.933"/>
+<color name="utokyo_green" value="0.208 0.792 0"/>
+<color name="utokyo_red" value="0.843 0.067 0.192"/>
+<color name="utokyo_purple" value="0.561 0.027 0.667"/>
+<color name="utokyo_lightblue" value="0.357 0.871 1"/>
 
 <preamble>
 
@@ -20,10 +21,10 @@
 \renewcommand\familydefault{\sfdefault}
 
 \usepackage{enumitem}
-\renewcommand{\labelitemi}{\color{utokyodarkblue}{\textbullet}}
-\renewcommand{\labelitemii}{\color{utokyodarkblue}{\textbullet}}
-\renewcommand{\labelitemiii}{\color{utokyodarkblue}{\textbullet}}
-\renewcommand{\labelitemiv}{\color{utokyodarkblue}{\textbullet}}
+\renewcommand{\labelitemi}{\color{utokyo_blue}{\textbullet}}
+\renewcommand{\labelitemii}{\color{utokyo_blue}{\textbullet}}
+\renewcommand{\labelitemiii}{\color{utokyo_blue}{\textbullet}}
+\renewcommand{\labelitemiv}{\color{utokyo_blue}{\textbullet}}
 
 \usepackage[yyyymmdd]{datetime}
 
@@ -34,7 +35,7 @@
 <symbol name="Background"  xform="yes">
 <group>
 
-<path fill="utokyoblue">
+<path fill="utokyo_blue">
 -16 254 m
 -16 250 l
 464 250 l
@@ -42,7 +43,7 @@
 h
 </path>
 
-<path fill="utokyogold">
+<path fill="utokyo_yellow">
 -16 -4 m
 -16 -16 l
 464 -16 l
